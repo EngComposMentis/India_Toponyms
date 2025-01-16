@@ -8,7 +8,7 @@ library(raster)
 library(spatstat)
 library(rgdal)
 
-setwd("C:/Users/riley/OneDrive/Documents/Programming/India/fc_files")
+setwd("C:/Users/user/OneDrive/Documents/Programming/India/fc_files")
 df <- read.csv("Populated_Places.txt", sep="\t", header=T)
 
 ggplot(data=df, aes(x=long_dd, y=lat_dd)) +
